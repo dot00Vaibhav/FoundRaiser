@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbars for dark mode */
+html.dark {
+  scrollbar-color: #23272f #18181b;
+}
+
+body {
+  background-color: theme('colors.background.light');
+}
+html.dark body {
+  background-color: theme('colors.background.dark');
+}
